@@ -13,3 +13,4 @@ vim.opt.textwidth = 80
 vim.opt.backspace = { "indent", "eol", "start" }
 vim.opt.splitright = true
 vim.opt.clipboard = "unnamedplus"
+vim.o.exrc = true
