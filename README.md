@@ -6,14 +6,14 @@ so this config was originally created with LazyVim starting point.
 
 ## Requirements
 
-These instructions are meant for Linux and MacOS. For Windows, you're on your
+These instructions are meant for Linux and macOS. For Windows, you're on your
 own.
 
 1. [Neovim](https://neovim.io/) `v0.11+`.
 2. [ripgrep](https://github.com/BurntSushi/ripgrep).
 3. [fd-find](https://github.com/sharkdp/fd).
 4. [wl-clipboard](https://github.com/bugaevc/wl-clipboard) if you use Wayland,
-   [xclip](https://github.com/astrand/xclip) for X11 and MacOS.
+   [xclip](https://github.com/astrand/xclip) for X11 and macOS.
 
 ## How to use this configuration
 
