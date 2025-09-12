@@ -52,3 +52,18 @@ system.
 After setting the environment variables, restart your terminal for simplicity.  
 Then you can change the Java runtime to use in a project by executing
 :JdtSetRuntime inside of Neovim, after opening a Java file.
+
+## C# support
+
+[OmniSharp](https://www.omnisharp.net/) is used to enable C# support.  
+It should work correctly by default on macOS. On Linux, however, it could be necessary
+to run the following command:
+
+```shell
+ln -s ~/.local/share/nvim/mason/bin/OmniSharp ~/.local/share/nvim/mason/bin/omnisharp
+```
+
+This command creates a symlink for Mason's *OmniSharp* so that the plugin file contains
+lower case characters only.  
+For some reasons, the C# LSP won't start if Mason's *OmniSharp* plugin contains uppercase
+characters.
