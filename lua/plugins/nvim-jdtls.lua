@@ -44,6 +44,17 @@ return {
               profile = "tino",
             },
           },
+          compile = {
+            nullAnalysis = {
+              mode = "automatic",
+              nonnull = {
+                "org.jspecify.annotations.NonNull",
+              },
+              nullable = {
+                "org.jspecify.annotations.Nullable",
+              },
+            },
+          },
         },
       },
     },
