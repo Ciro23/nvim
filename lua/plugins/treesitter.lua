@@ -16,6 +16,7 @@ return {
       "typescript",
       "vim",
       "yaml",
+      "vue-language-server",
     },
   },
 }
