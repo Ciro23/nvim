@@ -51,7 +51,7 @@ system.
 
 After setting the environment variables, restart your terminal for simplicity.  
 Then you can change the Java runtime to use in a project by executing
-:JdtSetRuntime inside of Neovim, after opening a Java file.
+`:JdtSetRuntime` inside of Neovim, after opening a Java file.
 
 ## C# support
 
