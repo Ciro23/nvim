@@ -15,22 +15,3 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt_local.softtabstop = 2
   end,
 })
-
-vim.api.nvim_create_autocmd("User", {
-  pattern = "VeryLazy",
-  callback = function()
-    -- By default, "<leader>ff" and "<leader><leader>" search for files in the
-    -- current working directory, based on the open file.
-    local ff = vim.fn.maparg("<leader>ff", "n", false, true)
-
-    -- By default, "<leader>fF" searches for files in the whole project.
-    local fF = vim.fn.maparg("<leader>fF", "n", false, true)
-
-    -- This behaviour is swapped, because pressing "<leader>ff" or
-    -- "<leader><leader>" is faster then "<leader>fF", and I often want
-    -- to search for files in the whole project.
-    vim.keymap.set("n", "<leader>ff", fF.callback)
-    vim.keymap.set("n", "<leader><leader>", fF.callback)
-    vim.keymap.set("n", "<leader>fF", ff.callback)
-  end,
-})
