@@ -14,3 +14,6 @@ vim.opt.backspace = { "indent", "eol", "start" }
 vim.opt.splitright = true
 vim.opt.clipboard = "unnamedplus"
 vim.o.exrc = true
+
+-- Remove or comment out this line to use Phpactor, instead.
+vim.g.lazyvim_php_lsp = "intelephense"

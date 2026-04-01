@@ -67,3 +67,17 @@ This command creates a symlink for Mason's *OmniSharp* so that the plugin file c
 lower case characters only.  
 For some reasons, the C# LSP won't start if Mason's *OmniSharp* plugin contains uppercase
 characters.
+
+## PHP support
+
+Intelephense is the default LSP. If you wish to use Phpactor, instead, just remove
+the following line from `lua/config/options.lua`:
+
+```lua
+vim.g.lazyvim_php_lsp = "intelephense"
+```
+
+### Intelephense licence
+
+If you have a paid Intelephense licence, store it inside `~/intelephense/licence.txt`
+and the LSP will load it automatically.

@@ -9,6 +9,7 @@ return {
       "lua",
       "markdown",
       "markdown_inline",
+      "php",
       "python",
       "query",
       "regex",
