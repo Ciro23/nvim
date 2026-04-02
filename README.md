@@ -19,6 +19,19 @@ own.
 
 Download this repository in `~/.config/nvim/`.
 
+## What I use this config for
+
+I use this config on a everyday basis to work on many different stacks.  
+The following languages and frameworks are supported and work fine:
+
+- Java / Spring Boot
+- Dart / Flutter
+- TypeScript / Angular
+- JavaScript / Vue.js
+- Python
+- PHP / Laravel
+- C#
+
 ## Java support
 
 To enable Java support, please use Java 21 as the default version for your
