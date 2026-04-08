@@ -17,3 +17,9 @@ vim.o.exrc = true
 
 -- Remove or comment out this line to use Phpactor, instead.
 vim.g.lazyvim_php_lsp = "intelephense"
+
+-- :LazyRoot will always point to the "current working directory",
+-- a.k.a. the directory Neovim was opened into.
+-- By default, this option's value is:
+-- vim.g.root_spec = { "lsp", { ".git", "lua" }, "cwd" }
+vim.g.root_spec = { "cwd" }
