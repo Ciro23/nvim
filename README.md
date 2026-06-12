@@ -9,7 +9,7 @@ so this config was originally created with LazyVim starting point.
 These instructions are meant for Linux and macOS. For Windows, you're on your
 own.
 
-1. [Neovim](https://neovim.io/) `v0.11+`.
+1. [Neovim](https://neovim.io/) `v0.12+`.
 2. [ripgrep](https://github.com/BurntSushi/ripgrep).
 3. [fd-find](https://github.com/sharkdp/fd).
 4. [wl-clipboard](https://github.com/bugaevc/wl-clipboard) if you use Wayland,
